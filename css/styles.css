@@ -1,20 +1,170 @@
+/*******************TAG SELECTORS*******************/
 body {
   background-color: #e7e7de;
+  font-family: tahoma, sans-serif;
+  margin: 0;
+  text-align: center;
 }
 
-a {
-color: #008891;
+li {
+  display: inline;
+}
 
+/*******************CLASS SELECTORS*******************/
+.BUTTON_SUP {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #F5F4F4;
+   font-family: Tahoma;
+   font-size: 2rem;
+   font-weight: 100;
+   padding: 2%;
+   background-color: #00303F;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
 }
-p {
-  color: #00587a;
+
+.BUTTON_SUP:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
 }
+
+/*Header*/
+.container-header {
+}
+.h1-header {
+  padding-top: 2%;
+  padding-bottom: 5%;
+  clear: left;
+  color: #00303f;
+}
+
+.h2-header {
+  padding-top: 5%;
+  clear: left;
+  color: #00303f;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.logo-container {
+  float: left;
+  height: 20%;
+  width: 20%;
+  margin-top: 3%;
+  margin-left: 7%;
+}
+
+.navigation-container-top {
+  text-align: right;
+  margin: 0 auto 0 auto;
+  width: 75%;
+  height: 15%;
+}
+
+.navigation-link-top {
+  color: #00303f;
+  margin-left: 2%;
+}
+
+.page-header {
+  padding-top: 1%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-image: url('../images/binigaus2.jpg');
+  background-size: cover;
+}
+
+/*Middle-Container*/
+.home-image {
+  width: 25%;
+  height: 25%;
+  margin: 2%;
+}
+
+.hr-middle-container {
+  border-color: #cdac81;
+  border-style: solid none none;
+  border-width: 2px;
+  width: 15%;
+}
+
+.middle-container {
+  background-color: #e7e7de;
+  margin: 1% 0 1% 0;
+}
+
+.text-middle-container {
+  /* font-family: 'Comfortaa', cursive; */
+  color: #00303f;
+  width: 50%;
+  margin: 0 auto 0 auto;
+  padding: 1%;
+  background-color: #cae4db;
+}
+
+/*Bottom-Container*/
+.bottom-container {
+  background-color: #00303f;
+  margin-top: 1%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+.footer-link {
+  color: #e7e7de;
+}
+
+.gox_mel_ltd {
+  color: #e7e7de;
+}
+
+.navigation-container-bottom {
+  text-align: right;
+  margin: 0 auto 0 auto;
+  width: 75%;
+  height: 15%;
+}
+
+.navigation-link-bottom {
+  color: #e7e7de;
+  margin-left: 2%;
+}
+
+/*******************ID SELECTORS*******************/
+/*OBSOLETE
 
 hr {
   background-color: #e7e7de;
-  border-style: dotted none none;
-  height: 0px;
   border-color: grey;
+  border-style: dotted none none;
   border-width: 6px;
+  height: 0px;
   width: 10%;
 }
+
+.style {
+  background-color: white;
+  height: 100px;
+  position: absolute;
+  top: 25%;
+  text-align: center;
+}
+
+*/
